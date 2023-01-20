@@ -1,0 +1,10 @@
+.hi{
+    color: orange;
+    size: 50px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
