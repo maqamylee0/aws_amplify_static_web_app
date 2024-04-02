@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+
 .hi{
     color: orange;
     size: 50px;
+    font-family: 'Nunito', sans-serif;
 }
 
 div{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Nunito', sans-serif;
+
 }
