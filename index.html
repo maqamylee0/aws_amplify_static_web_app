@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Padre pio POS</title>
+<title>Hospital POS</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./style.css">
@@ -14,14 +14,62 @@ img {margin-bottom: -8px;}
 .mySlides {display: none;}
 </style>
 </head>
-<body class="w3-content w3-black" style="max-width:1500px;">
+<body class="w3-content" style="max-width:1500px;">
 
-<!-- Header with Slideshow -->
+  <!-- Header with Slideshow -->
 <header class="w3-display-container w3-center">
-  <button class="w3-button w3-block w3-green w3-hide-large w3-hide-medium" onclick="document.getElementById('download').style.display='block'; window.location.href='https://drive.google.com/file/d/1gJubeE_qPWDV389FIHNy2a2R3mQ0Bfsu/view?usp=sharing'"
+  <button class="w3-button w3-block w3-green w3-hide-large w3-hide-medium" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-windows"></i></button>
+  <div class="mySlides w3-animate-opacity">
+    <img class="w3-image" src="./images/3.png" alt="Image 1" style="min-width:500px" width="1500" height="1000">
+    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+        <h1 class="w3-xlarge">Add stock</h1>
+        <hr class="w3-opacity">
+        <p>Add drugs and services</p>
+        <p><button class="w3-button w3-block w3-green w3-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-windows"></i></button></p>
       </div>
     </div>
   </div>
+  <div class="mySlides w3-animate-opacity">
+    <img class="w3-image" src="./images/6.png" alt="Image 2" style="min-width:500px" width="1500" height="1000">
+    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+        <h1 class="w3-xlarge w3-text-red"><b>Monitor sales and profit</b></h1>
+        <hr class="w3-opacity">
+        <p>Filter sales between periods</p>
+        <p><button class="w3-button w3-block w3-red w3-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
+      </div>
+    </div>
+  </div>
+  <div class="mySlides w3-animate-opacity">
+    <img class="w3-image" src="./images/5.png" alt="Image 3" style="min-width:500px" width="1500" height="1000">
+    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+        <h1 class="w3-xlarge">Bill patients</h1>
+        <hr class="w3-opacity">
+        <p>Bill and Make receipts </p>
+        <p><button class="w3-button w3-block w3-indigo w3-round" onclick="document.getElementById('download').style.display='block'">Download  <i class="fa fa-windows"></i></button></p>
+      </div>
+    </div>
+  </div>
+  <div class="mySlides w3-animate-opacity">
+    <img class="w3-image" src="./images/stock.png" alt="Image 3" style="min-width:500px" width="1500" height="1000">
+    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+        <h1 class="w3-xlarge">Monitor stock levels</h1>
+        <hr class="w3-opacity">
+        <p>Customize photos as you go</p>
+        <p><button class="w3-button w3-block w3-indigo w3-round" onclick="document.getElementById('download').style.display='block'">Download  <i class="fa fa-windows"></i></button></p>
+      </div>
+    </div>
+  </div>
+  <a class="w3-button w3-black w3-display-right w3-margin-right w3-round w3-hide-small w3-hover-light-grey" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
+  <a class="w3-button w3-block w3-black w3-hide-large w3-hide-medium" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
+</header>
+<!-- Header with Slideshow
+<header class="w3-display-container w3-center">
+  <button class="w3-button w3-block w3-green w3-hide-large w3-hide-medium" onclick="document.getElementById('download').style.display='block'; window.location.href='https://drive.google.com/file/d/1gJubeE_qPWDV389FIHNy2a2R3mQ0Bfsu/view?usp=sharing'">
+    
   <div class="mySlides w3-animate-opacity">
     <img class="w3-image" src="./images/3.png" alt="Image 2" style="min-width:500px" width="1500" height="1000">
     <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
@@ -46,15 +94,15 @@ img {margin-bottom: -8px;}
   </div>
   <a class="w3-button w3-black w3-display-right w3-margin-right w3-round w3-hide-small w3-hover-light-grey" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
   <a class="w3-button w3-block w3-black w3-hide-large w3-hide-medium" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
-</header>
+</header> -->
 
 <!-- The App Section -->
 <div class="w3-padding-64 w3-white">
   <div class="w3-row-padding">
     <div class="w3-col l8 m6">
-      <h1 class="w3-jumbo"><b>The App</b></h1>
-      <h1 class="w3-xxxlarge w3-text-green"><b>Why buy it?</b></h1>
-      <p><span class="w3-xlarge">Manage inventory with no fuss</span> <br> Seamlessly integrating inventory management and point-of-sale functionalities, our system is designed to streamline operations, enhance efficiency, and optimize resource utilization within healthcare facilities.</p>
+      <h1 class="w3-jumbo"><b>Point of Sale</b></h1>
+      <h1 class="w3-xxlarge w3-text-green"><b>Hospitals, Clinics, Pharmacies</b></h1>
+      <p><span class="w3-xlarge">Manage inventory with no fuss</span> <br> A windows desktop app that Seamlessly integrats inventory management and point-of-sale functionalities, our system is designed to streamline operations, enhance efficiency, and optimize resource utilization within healthcare facilities.</p>
       <button class="w3-button w3-light-grey w3-padding-large w3-section w3-hide-small" onclick="document.getElementById('download').style.display='block' ; window.location.href='https://drive.google.com/file/d/1gJubeE_qPWDV389FIHNy2a2R3mQ0Bfsu/view?usp=sharing'">
         <i class="fa fa-download"></i> Download Application
       </button>
@@ -92,49 +140,54 @@ img {margin-bottom: -8px;}
       <img class="w3-image w3-round-large w3-hide-small w3-grayscale" src="./images/4.png" alt="App" width="335" height="471">
     </div>
     <div class="w3-col l8 m6">
-      <h1 class="w3-jumbo"><b>Inspiration</b></h1>
-      <h1 class="w3-xxxlarge w3-text-red"><b>Usable</b></h1>
-      <p><span class="w3-xlarge">A solution for small hospitals was inspired by someone who owned one and was looking for a simple
-         low cost system thta was reliable for his hospital.</span> <br> Seamless record of transactions for hospital services, including outpatient visits, laboratory tests, and pharmacy purchases.<br> Integrated billing and payment processing functionalities simplify financial transactions, reducing administrative overhead and enhancing revenue capture.</p>
+      <!-- <h1 class="w3-jumbo"><b>What we offer</b></h1> -->
+      <h1 class="w3-xxxlarge w3-text-red"><b>What we offer</b></h1>
+      <p><span class="w3-xlarge">A solution for small hospitals, clinics and pharmacies looking for a simple
+         low cost point of sale that is offline and reliable.</span></p>
     </div>
   </div>
 </div>
 
 <!-- Features Section -->
-<div class="w3-container w3-padding-64 w3-dark-grey w3-center">
+<div class="w3-container w3-padding-64  w3-center">
   <h1 class="w3-jumbo"><b>Features</b></h1>
   <p>This app is just so convinient.</p>
 
   <div class="w3-row" style="margin-top:64px">
     <div class="w3-col s3">
-      <i class="fa fa-bolt w3-text-orange w3-jumbo"></i>
+      <i class="fa fa-plus-circle w3-text-orange w3-jumbo"></i>
       <p>Add Stock</p>
     </div>
     <div class="w3-col s3">
-      <i class="fa fa-heart w3-text-red w3-jumbo"></i>
-      <p>Intuitive</p>
+      <i class="fa fa-expeditedssl w3-text-red w3-jumbo"></i>
+      <p>Secure</p>
     </div>
+   
     <div class="w3-col s3">
-      <i class="fa fa-camera w3-text-yellow w3-jumbo"></i>
+      <i class="fa fa-line-chart w3-text-yellow w3-jumbo"></i>
       <p>Monitor stock</p>
     </div>
     <div class="w3-col s3">
-      <i class="fa fa-battery-full w3-text-green w3-jumbo"></i>
+      <i class="fa fa-print w3-text-green w3-jumbo"></i>
       <p>Print receipts</p>
     </div>
   </div>
 
-  <div class="w3-row" style="margin-top:64px">
+  <div class="w3-row" style="margin-top:64px; margin-bottom:64px">
+    <!-- <div class="w3-col s3">
+      <i class="fa fa-expeditedssl w3-text-white w3-jumbo"></i>
+      <p>Secure</p>
+    </div> -->
     <div class="w3-col s3">
-      <i class="fa fa-diamond w3-text-white w3-jumbo"></i>
-      <p>Very smooth</p>
+      <i class="fa fa-heart w3-text-red w3-jumbo"></i>
+      <p>Easy to use</p>
     </div>
     <div class="w3-col s3">
       <i class="fa fa-cloud w3-text-blue w3-jumbo"></i>
       <p>Google drive backup</p>
     </div>
     <div class="w3-col s3">
-      <i class="fa fa-globe w3-text-amber w3-jumbo"></i>
+      <i class="fa fa-edit w3-text-amber w3-jumbo"></i>
       <p>Customisable</p>
     </div>
     <div class="w3-col s3">
@@ -145,17 +198,17 @@ img {margin-bottom: -8px;}
   
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-32 w3-light-grey w3-center w3-xlarge">
-  <div class="w3-section">
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center w3-xlarge ">
+  <!-- <div class="w3-section">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
-  <p>Contact us: Email: emmillynamuganga@gmail.com</p>
-  <p class="w3-medium">Powered by Padre pio Limited</p>
+  </div> -->
+  <p>Contact us: emmillynamuganga@gmail.com</p>
+  <!-- <p class="w3-medium">Powered by Padre pio Limited</p> -->
 </footer>
 
 <script>
